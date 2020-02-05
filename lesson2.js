@@ -31,7 +31,7 @@ function isDivisibleBy3(x) {
 }
 
 for (i=1; i<=100; i=i+1) {
-  if isDivisibleBy5and3(i) {
+  if (isDivisibleBy5and3(i)) {
   console.log("Fizzbuzz")
 }
 else if isDivisibleBy3(i) {
