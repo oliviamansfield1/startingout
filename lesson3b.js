@@ -23,16 +23,15 @@ function reverseString(x) {
   return bit
 }
 
-function endRev(x) {
+function endRev(x,y) {
   var bit = ""
-  for (i=x.length-1; i>=x.length-5; i=i-1) {
+  for (i=x.length-1; i>=x.length-y; i=i-1) {
     bit = bit + x[i]
   }
+
   return bit
 }
 
 function timeDiff(x,y) {
-  var bit =
-  for (i=x-y)
-
-}
+  return x-y
+%}
